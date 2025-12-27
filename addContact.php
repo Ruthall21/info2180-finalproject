@@ -49,7 +49,7 @@
       <div class="form-group">
         <label for="type">Type</label>
         <select name="type" id="type">
-          <option value="Sales">Sales Lead</option>
+          <option value="Sales Lead">Sales Lead</option>
           <option value="Support">Support</option>
         </select>
       </div>
