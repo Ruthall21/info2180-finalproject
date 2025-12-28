@@ -4,7 +4,7 @@
 <div class="form-box">
   <h2>New User</h2>
 
-  <form method="POST" action="adduser.php">
+  <form method="POST" action="newuserprocess.php">
     <div class="form-row">
       <div class="form-group">
         <label>First Name</label>
