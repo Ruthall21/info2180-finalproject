@@ -1,14 +1,11 @@
 <?php
+// Start the session so we can destroy it
 session_start();
-<<<<<<< HEAD
-$_SESSION = [];
-=======
->>>>>>> 17c70fa837459f3205099de86456305acf618b0e
+
+// Clear all session data (log the user out)
 session_destroy();
-header("Location: login.php");
-exit;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 17c70fa837459f3205099de86456305acf618b0e
+// Send them back to the login page
+header('Location: index.php');
+exit();
+?>
