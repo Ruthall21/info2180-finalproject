@@ -285,6 +285,54 @@ select:focus {
   padding: 15px 0;
   color: #6b7280;
   font-size: 13px;
+<<<<<<< HEAD
+=======
+
+  /* ===== View Contact and Notes ===== */
+
+/* buttons on the right of the top-bar */
+.actions{
+  display: flex;
+  gap: 10px;
+}
+
+/* textarea for notes */
+textarea{
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  resize: vertical;
+  font-family: Arial, sans-serif;
+}
+
+textarea:focus{
+  outline: none;
+  border-color: #6366f1;
+}
+
+/* notes display */
+.note-item{
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.note-meta{
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 3px;
+}
+
+.note-text{
+  margin: 8px 0 0;
+  color: #374151;
+  font-size: 14px;
+  line-height: 1.4;
+
+
+>>>>>>> 17c70fa837459f3205099de86456305acf618b0e
 }
 
 

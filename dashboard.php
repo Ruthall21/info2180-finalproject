@@ -61,7 +61,10 @@ $('.sidebar a').click(function(e){
   const page = $(this).data('page');
   loadPage(page);
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 17c70fa837459f3205099de86456305acf618b0e
 </script>
 
 <script>
