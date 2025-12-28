@@ -61,6 +61,7 @@ $('.sidebar a').click(function(e){
   const page = $(this).data('page');
   loadPage(page);
 });
+
 </script>
 
 <script>
