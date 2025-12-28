@@ -1,4 +1,4 @@
-?php
+<?php
 require_once 'config.php';
 
 // Make sure user is logged in
